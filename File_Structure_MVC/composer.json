@@ -1,0 +1,14 @@
+{
+    "name" : "suber/market" ,
+    "description" : "SuperMarket framework" ,
+    "license" : "MO",
+    "type" : "framework" ,
+    "require" : {
+        "php" : "^7"
+    },
+    "autoload" :{
+        "psr-4" : {
+            "SuperMarket\\" : "app" 
+        }
+    }
+}
